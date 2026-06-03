@@ -1,0 +1,22 @@
+.features-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.features-item {
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    gap: 8px;
+}
+.features-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid var(--light-slate);
+    background-color: var(--cloud);
+        
+}
