@@ -65,13 +65,14 @@
 }
 
 .footer-subscribe {
-    margin-left: 80px;
+    margin-left: auto;
 }
 
 .footer-subscribe-text {
     margin-bottom: 16px;
     color: var(--white);
     font-weight: var(--font-weight-medium);
+    letter-spacing: var(--letter-spacing-text);
 }
 
 .footer-subscribe-form {
@@ -89,7 +90,7 @@
     background-color: transparent;
     color: var(--white);
     font-size: var(--font-size-small);
-    line-height: var(--line-height-body);
+    line-height: 2;
     letter-spacing: var(--letter-spacing-action);
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
     transition: border-color var(--transition);
@@ -100,7 +101,7 @@
 }
 
 .footer-subscribe-input:focus {
-    border-color: var(--iris);
+    border-color: var(--green);
 }
 
 .footer-subscribe-button {
@@ -124,7 +125,7 @@
 
 .footer-subscribe-button:hover,
 .footer-subscribe-button:focus {
-    background-color: var(--ocean);
+    background-color: var(--green);
 }
 
 .footer-subscribe-icon {
